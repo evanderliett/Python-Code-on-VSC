@@ -117,8 +117,6 @@ plt.savefig("Figure 2.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
-
-
 # FIGURE 3
 import pandas as pd
 import numpy as np
@@ -248,7 +246,6 @@ plt.savefig(
 plt.show()
 
 
-
 # FIGURE 4 
 import pandas as pd
 import numpy as np
@@ -348,10 +345,6 @@ for ax in axes:
 plt.tight_layout()
 plt.savefig("Figure 4.png", dpi=300)
 plt.show()
-
-
-
-
 
 
 # FIGURE 5
