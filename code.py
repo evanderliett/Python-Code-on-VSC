@@ -378,8 +378,8 @@ if len(control) > 1:
 if len(chd) > 1:
     m_h, b_h = np.polyfit(chd["SV"], chd["O2_pulse"], 1)
     plt.plot(x_line, m_h * x_line + b_h, color="red", linewidth=1)
-plt.xlabel("Stroke Volume (mL/beat)")
-plt.ylabel("O$_2$ pulse (mL/beat)")
+plt.xlabel("Stroke Volume (mL)")
+plt.ylabel("O$_2$ pulse (mL)")
 plt.xticks(np.arange(0, df["SV"].max() + 20, 20))
 plt.yticks(np.arange(0, 31, 5))
 for spine in ax.spines.values():
